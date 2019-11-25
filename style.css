@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  height: 100%;
+  resize:both;
+  overflow:auto;
+}
+.triangle{
+  clip-path: polygon(85% 50%, 5% 0,5% 100%);
+}
+
+.logo{
+  float: right;
+}
+h1{
+
+  font-size: 30px;
+}
+h2{
+  font-weight: bold;
+}
+hr{
+  border: 3px solid green;
+  float: left;
+}
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: silver;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+footer {
+  float: right;
+
+  text-align: center;
+  color: black;
+}
